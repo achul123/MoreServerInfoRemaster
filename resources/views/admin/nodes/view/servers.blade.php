@@ -40,6 +40,10 @@
                         <th>ID</th>
                         <th>Server Name</th>
                         <th>Owner</th>
+                        <th>Memory</th>
+                        <th>CPU</th>
+                        <th>Disk</th>
+                        <th>Egg</th>
                         <th>Service</th>
                     </tr>
                     @foreach($servers as $server)
