@@ -38,6 +38,9 @@
                             <th>UUID</th>
                             <th>Owner</th>
                             <th>Node</th>
+                            <th>Memory</th>
+                            <th>CPU</th>
+                            <th>Disk</th>
                             <th>Connection</th>
                             <th></th>
                             <th></th>
@@ -47,6 +50,9 @@
                                 <td><a href="{{ route('admin.servers.view', $server->id) }}">{{ $server->name }}</a></td>
                                 <td><code title="{{ $server->uuid }}">{{ $server->uuid }}</code></td>
                                 <td><a href="{{ route('admin.users.view', $server->user->id) }}">{{ $server->user->username }}</a></td>
+                                <td><code title="{{ $server->memory }}">{{ $server->memory }}MB</code></td>
+                                <td><code title="{{ $server->cpu }}">{{ $server->cpu }}%</code></td>
+                                <td><code title="{{ $server->disk }}">{{ round($server->disk/1024, 2, PHP_ROUND_HALF_DOWN) }}GB</code></td>
                                 <td><a href="{{ route('admin.nodes.view', $server->node->id) }}">{{ $server->node->name }}</a></td>
                                 <td>
                                     <code>{{ $server->allocation->alias }}:{{ $server->allocation->port }}</code>
