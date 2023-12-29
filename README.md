@@ -1,7 +1,7 @@
 # MoreServerRemaster
-# Developed by harrydev
-# Check by achul123
-# Made for https://pterodactyl.io
+Developed by harrydev
+Check by achul123
+Made for https://pterodactyl.io
 
 # Please note I am not responsible for any damage or corrupted installations.
 
