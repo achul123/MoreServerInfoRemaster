@@ -9,3 +9,5 @@
 - Upload the contents of the "Files to upload" folder to your Pterodactyl installation directory
 - Build your panel assets using "yarn build:production" (Learn more here: https://pterodactyl.io/community/customization/panel.html)
 - Head over to https://panel.example.com/admin/servers and see the new allocation info.
+
+![alt text](https://github.com/achul123/MoreServerInfoRemaster/blob/main/image.jpg?raw=true)
